@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
 
-jobs:  
+jobs:   
   continuous-integration:
     runs-on: windows-latest
     steps:
